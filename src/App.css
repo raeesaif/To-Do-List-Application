@@ -1,0 +1,59 @@
+.App {
+    display: inline-block;
+    font-size: larger;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+.button-add {
+    cursor: pointer;
+    background-color: darkgreen;
+    color: white;
+    border: none;
+    padding: 8px 8px;
+    margin: 8px 0;
+    border-radius: 4px;
+}
+
+.button-add:hover {
+    background-color: green;
+}
+
+.input-task {
+    padding: 8px 8px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #58e317;
+    box-sizing: border-box;
+    border-radius: 4px;
+}
+
+.toggle-btn {
+    cursor: pointer;
+    background-color: #f44336;
+    color: white;
+    border: none;
+    padding: 8px 8px;
+    margin: 8px 0;
+    border-radius: 4px;
+}
+
+.todo-item.completed span {
+    text-decoration: line-through;
+    color: #888;
+}
+
+.todo-item.completed .toggle-btn {
+    background-color: #4CAF50;
+}
+.delete-btn{
+    cursor: pointer;
+    background-color: #f44336;
+    color: white;
+    border: none;
+    padding: 8px 8px;
+    margin: 8px 4px;
+    border-radius: 4px;
+} 
+
+
+  
